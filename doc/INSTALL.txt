@@ -1,0 +1,8 @@
+1. Add the extension within Extension Manager
+2. Add the TypoScript Template after rsextbase and feuserprofile in your site's template
+3. Create a page (hide in menu!) containing the Chat plugin
+4. Edit the chat.js script and replace the ID of the new page in this script
+5. Make sure TYPO3_CONF_VARS['FE']['debug'] ist set to 0 ? (exit machen????)
+6. Add following IE CSS to your top-most div container (if no such exist, create it - containing everything!)
+	height: 100%;
+	position: absolute;
