@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'jrt'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_typo3chat_messages">Typo3Chat Messages</label>
+			<label index="tx_typo3chat_messages.sender">Sender</label>
+			<label index="tx_typo3chat_messages.recipient">Recipient</label>
+			<label index="tx_typo3chat_messages.message">Message</label>
+			<label index="tx_typo3chat_messages.sent_date">Date/Time Sent</label>
+			<label index="tx_typo3chat_messages.received">Message was received</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_jrt_companies">Typo3Chat Nachrichten</label>
+			<label index="tx_typo3chat_messages.sender">Abender</label>
+			<label index="tx_typo3chat_messages.recipient">Empfänger</label>
+			<label index="tx_typo3chat_messages.message">Nachricht</label>
+			<label index="tx_typo3chat_messages.sent_date">Datum/Uhrzeit</label>
+			<label index="tx_typo3chat_messages.received">Nachricht wurde empfangen</label>
+		</languageKey>
+	</data>
+</T3locallang>

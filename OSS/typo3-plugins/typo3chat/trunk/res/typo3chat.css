@@ -1,0 +1,99 @@
+
+.chatbox {
+    display: none;
+	position: fixed;
+	position:expression("absolute");
+    width: 160px;
+}
+.chatboxhead {
+    background-color: #F99D39;
+    border-left: 1px solid #F99D39;
+    border-right: 1px solid #F99D39;
+    color: #FFFFFF;
+    padding: 7px;
+}
+.chatboxblink {
+    background-color: #176689;
+    border-left: 1px solid #176689;
+    border-right: 1px solid #176689;
+}
+.chatboxcontent {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #333333;
+    font-family: arial,sans-serif;
+    font-size: 8pt;
+    height: 200px;
+    line-height: 1.3em;
+    overflow: auto;
+    padding: 7px;
+    width: 144px;
+}
+.chatboxinput {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding: 5px;
+}
+.chatboxtextarea {
+    border: 1px solid #EEEEEE;
+    font-family: Arial;
+    font-size: 8pt;
+    height: 44px;
+    margin: 1px;
+    overflow: hidden;
+    padding: 3px 0 3px 3px;
+    width: 142px;
+}
+.chatboxtextareaselected {
+    border: 2px solid #F99D39;
+    margin: 0;
+}
+.chattimestamp {
+    color: #333333;
+	font-size: 90%;
+	font-style: italic;
+	font-weight: plain;
+	padding-left: 3px;
+	float: right;
+}
+
+.chatboxmessagefrom .fromMyself {
+	color: #003300;
+	font-weight: bold;
+}
+.chatboxmessagefrom .fromSender {
+	color: #000066;
+	font-weight: bold;
+}
+.chatboxmessage {
+    border-top: #cccccc solid 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.chatboxinfo {
+    color: #666666;
+    font-size: 90%;
+    font-style: italic;
+}
+.chatboxmessagefrom {
+	float: left;
+}
+.chatboxmessagecontent {
+    font-size: 90%;
+}
+.chatboxoptions {
+    float: right;
+}
+.chatboxoptions a {
+    color: white;
+    font-family: Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.chatboxtitle {
+    float: left;
+}
