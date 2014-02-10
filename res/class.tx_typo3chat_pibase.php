@@ -21,7 +21,7 @@ class tx_typo3chat_pibase extends tx_rsextbase_pibase {
 	 */
 	function createDatabaseObject() {
 		$this->db = t3lib_div::makeInstance('tx_typo3chat_database');
-		$this->db->init($this);
+		$this->db->init($this->config);
 	}
 	
 	
