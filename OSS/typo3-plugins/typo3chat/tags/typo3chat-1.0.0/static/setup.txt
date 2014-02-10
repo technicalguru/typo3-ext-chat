@@ -1,0 +1,50 @@
+plugin.tx_typo3chat < plugin.tx_rsextbase
+plugin.tx_typo3chat {
+	config {
+	}
+	
+	default {
+		openchat = USER
+		openchat {
+			includeLibs = EXT:typo3chat/res/class.tx_typo3chat_pibase.php
+			userFunc = tx_typo3chat_pibase->openchat
+			
+			display = IMAGE
+			display {
+				file = EXT:typo3chat/res/icons/chat.png
+				file.maxW = 16
+				file.maxH = 16
+				altTitle = Chat
+			}
+		}
+	}
+}
+
+
+plugin.tx_typo3chat_pi1 {
+	config < plugin.tx_typo3chat.config
+	default < plugin.tx_typo3chat.default
+
+}
+
+page.includeCSS {
+	typo3chat1 = EXT:typo3chat/res/typo3chat.css
+}
+
+[browser = msie]
+page.includeCSS.typo3chat1 = EXT:typo3chat/res/typo3chat_ie.css
+[global]
+
+page.includeJS {
+	typo3chat1 = EXT:typo3chat/res/jquerychat/js/chat.js
+}
+
+plugin.tx_feuserprofile_pi1 {
+	default {
+		openchat < plugin.tx_typo3chat.default.openchat
+	}
+	
+	list.type.openchat = openchat
+	online.type.openchat = openchat
+	view.type.openchat = openchat
+}

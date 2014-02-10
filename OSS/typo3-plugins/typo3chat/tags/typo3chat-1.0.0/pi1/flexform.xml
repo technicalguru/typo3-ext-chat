@@ -1,0 +1,35 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:typo3chat/locallang.xml:flexform.general.title</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<mode>
+						<TCEforms>
+							<label>LLL:EXT:typo3chat/pi1/locallang.xml:flexform.mode</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:typo3chat/pi1/locallang.xml:flexform.mode.0</numIndex>
+										<numIndex index="1">DEFAULT</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:typo3chat/pi1/locallang.xml:flexform.mode.1</numIndex>
+										<numIndex index="1">SPECIAL</numIndex>
+									</numIndex>
+                				</items>
+							</config>
+						</TCEforms>
+					</mode>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

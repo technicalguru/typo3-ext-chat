@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin tx_typo3chat_pi1</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<!-- Plugin -->
+			<label index="tt_content.list_type">Typo3Chat PI01: Chat Plugin</label>
+			
+			<!-- Flexforms -->
+			<label index="flexform.mode">Mode</label>
+			<label index="flexform.mode.0">Default Mode</label>
+			<label index="flexform.mode.1">Special Mode</label>
+
+			<!-- Plugin -->			
+		</languageKey>
+		<languageKey index="de" type="array">
+		</languageKey>
+	</data>
+</T3locallang>
